@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-box">
+            <h1>🎯 Click Me If You Can! 🎯</h1>
+            <div class="game-area">
+                <p>Clicks: <span id="clicks">0</span></p>
+                <p>Time Left: <span id="time">10</span> seconds</p>
+                <button id="clickButton">Click Me!</button>
+                <p>Your Rank: <span id="rank">Novice</span></p>
+            </div>
+            <div id="result" class="hidden">
+                <p>⏰ Time's Up! You clicked <span id="totalClicks">0</span> times. 🏆</p>
+                <p>Your Rank is <span id="finalRank">Novice</span>. Keep Clicking! 🚀</p>
+                <button id="playAgainButton">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
